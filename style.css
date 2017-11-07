@@ -1,11 +1,12 @@
     header {
       text-align: center;
-      background: url("images/banner.jpg");
+      background: url("images/File_000.jpeg");
       background-size: cover;
       color: white;
     }
     .nav {
       color: white;
+    
     }
     h1 {
       font-size: 70px;
@@ -18,6 +19,8 @@
     ul {
       padding: 10px;
       background: rgba(0,0,0,0.5);
+      position:absolute;
+      top:300px;
     }
     li {
       display: inline;
@@ -38,3 +41,16 @@
         display: block;
       }
     }
+#profile{
+  height:250px;
+  width:200px;
+  position:absolute;
+  top:100px;
+  left:500px;
+}
+body{
+  background-color:#47B4FF  ;
+}
+#desF{
+  font-size:40px;
+}
