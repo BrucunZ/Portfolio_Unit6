@@ -3,54 +3,42 @@
       background: url("images/File_000.jpeg");
       background-size: cover;
       color: white;
+      height:500px;
     }
-    .nav {
-      color: white;
     
-    }
-    h1 {
-      font-size: 70px;
-    }
-    img {
-      margin: 40px 0px 0px 0px;
-      border: 7px solid white;
-      border-radius: 20px;
-    }
-    ul {
-      padding: 10px;
-      background: rgba(0,0,0,0.5);
-      position:absolute;
-      top:300px;
-    }
-    li {
-      display: inline;
-      padding: 0px 10px 0px 10px;
-    }
-    div{
-      max-width: 500px;
-      padding: 20px;
-      margin: 0 auto;
-    }
-    @media (max-width: 500px) {
-      h1 {
-        font-size: 36px;
-        padding: 5px;
-      }
-      li {
-        padding: 5px;
-        display: block;
-      }
-    }
+    
+#Hey{
+ text-align:center;
+
+}
+  
+
+
 #profile{
   height:250px;
   width:200px;
   position:absolute;
-  top:100px;
-  left:500px;
+  top:120px;
+  left:300px;
+  border: 5px solid white;
+  border-radius:40px;
 }
 body{
   background-color:#47B4FF  ;
 }
 #desF{
   font-size:40px;
+  position:absolute;
+  top:250px;
+  left:200px;
+ font-family: 'Satisfy', cursive;
+ 
+}
+#desS{
+  font-size:40px;
+  position:absolute;
+  top:250px;
+  left:150px;
+  font-family: 'Satisfy', cursive;
+ 
 }
