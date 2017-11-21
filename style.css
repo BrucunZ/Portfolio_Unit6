@@ -16,11 +16,11 @@
 
 #profile{
   height:250px;
-  width:200px;
+  width:195px;
   position:absolute;
   top:120px;
   left:300px;
-  border: 5px solid white;
+  border:5px solid white;
   border-radius:40px;
 }
 body{
@@ -38,7 +38,29 @@ body{
   font-size:40px;
   position:absolute;
   top:250px;
-  left:150px;
+  
   font-family: 'Satisfy', cursive;
  
+}
+#intro{
+  text-align:center;
+  font-family: 'Satisfy', cursive;
+  color:white;
+  
+}
+.jumbotron{
+  position:absolute;
+  top:600px;
+  background-color:black;
+}
+#about{
+  text-align:center;
+  font-family: 'Satisfy', cursive;
+  color:white;
+  font-size:30px;
+}
+#checkmo{
+    text-align:center;
+  font-family: 'Satisfy', cursive;
+  color:white;
 }
