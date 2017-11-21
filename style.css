@@ -49,8 +49,6 @@ body{
   
 }
 .jumbotron{
-  position:absolute;
-  top:600px;
   background-color:black;
 }
 #about{
@@ -60,7 +58,16 @@ body{
   font-size:30px;
 }
 #checkmo{
-    text-align:center;
+  text-align:center;
   font-family: 'Satisfy', cursive;
   color:white;
+  
+}
+.img-circle{
+  height:200px;
+  width:200px;
+  margin:12px;
+}
+#twitter{
+ background:url("images/twitter.jpg"); 
 }

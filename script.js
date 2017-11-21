@@ -1,10 +1,17 @@
+/* global $*/
+
 $(document).ready(function(){
     //Write all your jQuery code here
-        $("button").click(function() {
-      $("#like").html("You like this project!");
-    });
-    
+      
+    $("#twitter").click(function(){
+    window.location.href="https://twitter.com/bujoodoo12";
+});
+
+$("#").click(function(){
+    window.location.href="";
+});
     
     
     
 });
+
